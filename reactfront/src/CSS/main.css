@@ -1,0 +1,85 @@
+.main-background {
+    background-color: rgb(1,167,253);
+    height: 100vh;
+}
+.elder-details {
+    background-color: rgb(1,60,91);
+    height: 100%;
+    padding-left: 1%;
+    margin-bottom: 16px;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    align-items: center;
+    
+   
+
+  }
+  
+  .elder-details h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .elder-details p {
+    margin-top: 8px;
+  }
+  h1 {
+    color: rgb(218,0,99);
+    padding-right: 1%;
+
+  }
+  h2 {
+    color: rgb(218,0,99);
+    padding-right: 1%;
+
+  }
+  h3 {
+    color: rgb(218,0,99);
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+  p{
+    color: rgb(218,0,99);
+  }
+  .monitor-button{
+    background-color: #6893ff;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+    padding-left: 2%;
+    text-decoration: none;
+    color: rgb(218,0,99);
+  }
+  .monitor-button:hover{
+    background-color: blue;
+    
+  }
+  .Button-configure{
+    height: 70%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .configuration-body{
+    background-color: black;
+    height: 50%;
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+  }
+  .main-component{
+    height: 15%;
+  }
+  img{
+    height: 100%;
+  }
+  .AddHouseAddressButton{
+    margin-top: 3%;
+    padding: 3%;
+  }

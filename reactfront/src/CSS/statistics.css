@@ -1,0 +1,53 @@
+.statistics-main-background {
+    background-color: rgb(1,167,253);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.statistics-container{
+    background-color: rgb(1,60,91);
+    padding: 1%;
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    
+}
+.statistics-upper{
+
+    margin-right: 3%;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.statistics-upper-right{
+    width: 50%;
+    height: 80%;
+    background-color: white;
+}
+.statistics-upper-left{
+    background-color: white;
+    width: 30%;
+    height: 80%;
+    margin: 3%;
+}
+.statistics-lower-left{
+    background-color: white;
+    width: 40%;
+    height: 80%;
+    margin: 3%;
+}
+.statistics-lower{
+    margin-right: 3%;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

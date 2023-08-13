@@ -1,0 +1,145 @@
+.grid {
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    padding-top: 2%;
+    padding-left: 2%;
+    
+    
+  }
+  
+  .grid-row {
+    display: flex;
+    
+  }
+  
+  .grid-cell {
+
+    border: 1px solid #ccc;
+  }
+  
+  .cell-filled {
+    background-color: #444;
+  }
+  .house-planner-container{
+    background-color:white;
+    padding: 3%;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .house-location-container{
+    background-color:white;
+    padding: 3%;
+    width: 60%;
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .background-planner{
+    background-color: rgb(1,167,253);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .grid-cell-glow {
+    background-color: lightgreen;
+    box-shadow: 0 0 5px green, 
+                0 0 10px green, 
+                0 0 20px green; 
+    animation: glowing 1s infinite;
+  }
+  .success-message {
+    color: green;
+  }
+  @keyframes glowing {
+    0% {
+      box-shadow: 0 0 5px green, 0 0 10px green, 0 0 20px green;
+    }
+    50% {
+      box-shadow: 0 0 10px green, 0 0 20px green, 0 0 40px green;
+    }
+    100% {
+      box-shadow: 0 0 5px green, 0 0 10px green, 0 0 20px green;
+    }
+  }
+  .planner-elements{
+    margin-left: 3%;
+  }
+  .planner-header{
+    margin: 0 auto;
+    margin-bottom: 1%;
+  }
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .planner-next{
+    margin-right: 3%;
+  }
+  .planner-door{
+    margin-right: 20%;
+    margin-bottom: 1%;
+  } 
+  .admin-housecheck-rooms{
+    width: 10%;
+    text-align: center;
+  }
+  .admin-address-select{
+    margin: 1%;
+  }
+  .p-house-planner{
+    padding: 2%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .grid-cell {
+      width: 10px;
+      height: 10px;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .grid-cell {
+      width: 15px;
+      height: 15px;
+    }
+  }
+  
+  @media only screen and (min-width: 1025px) {
+    .grid-cell {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  @media only screen  and (min-width: 1025px) and (max-width: 2500px) {
+    .house-location-container{
+      padding: 1%;
+      flex-direction: row;
+    }
+    .grid-cell {
+      width: 20px;
+      height: 20px;
+    }
+    .house-planner-container{
+      height: 70%;
+    }
+    .planner-header{
+      display: none;
+    }
+
+  }
+  @media only screen  and (min-width: 100px) and (max-width: 850px) {
+    .grid-cell {
+      width: 10px;
+      height: 10px;
+    }
+}
+  
